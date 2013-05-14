@@ -1,0 +1,10 @@
+/static StaticR Static getStatic
+/ HomeR GET POST
+/auth   AuthR   Auth   getAuth
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/users UsersR GET POST
+
+/users/#UserId UserR GET

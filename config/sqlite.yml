@@ -1,0 +1,20 @@
+Default: &defaults
+  database: w3ne.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: w3ne_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: w3ne_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: w3ne_production.sqlite3
+  poolsize: 100
+  <<: *defaults

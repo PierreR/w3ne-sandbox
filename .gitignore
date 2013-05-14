@@ -1,0 +1,5 @@
+yesod-devel
+cabal-dev
+/.dist-buildwrapper
+deploy
+dist
